@@ -4,7 +4,7 @@ import org.junit.*;
 public class demoTest {
     @Test
     public void subtraction() {
-        assertEquals(2, demo.subtract(4, 3)); //this test will fail
+        assertEquals(2, demo.subtract(4, 2)); //this test should pass
     }
 
 }
